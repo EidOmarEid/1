@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>المختار للكهرباء المنازل</title>
+  <!-- 🟡 إضافة أيقونة الموقع في التبويب -->
+<link rel="icon" href="logo.png">
+
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -159,8 +162,8 @@ footer a:hover{opacity:.85}
     <img src="logo.png"> شركة المختار للكهرباء
   </div>
   <nav>
-    <a href="index.html">الرئيسية</a>
-    <a href="about.html">فديوهات</a>
+    <a href="https://eidomareid.github.io/1/">الرئيسية</a>
+    <a href="https://eidomareid.github.io/2/">فديوهات</a>
   </nav>
 </header>
 
@@ -192,7 +195,7 @@ footer a:hover{opacity:.85}
 /* الصور */
 const gallery = document.getElementById("gallery");
 const images=[];
-for(let i=1;i<=50;i++){
+for(let i=1;i<=297;i++){
   images.push(`(${i}).jpg`);
   const img=document.createElement("img");
   img.src=images[i-1];
@@ -259,8 +262,8 @@ function update(){
 
 /* PAGINATION LINKS */
 const pageLinks=[
-  "https://example.com/page1",
-  "https://example.com/page2"
+  "https://eidomareid.github.io/1/",
+  "https://eidomareid.github.io/2/"
 ];
 
 const pagination=document.getElementById("pagination");
@@ -283,5 +286,6 @@ function scrollToTarget(id){
 
 </body>
 </html>
+
 
 
